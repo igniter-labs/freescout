@@ -32,6 +32,7 @@
         "ramsey/uuid": "3.9.6",
         "rap2hpoutre/laravel-log-viewer": "v2.0.0",
         "spatie/laravel-activitylog": "2.7.0",
+        "stripe/stripe-php": "^14.7",
         "symfony/console": "v3.4.47",
         "symfony/debug": "v3.4.18",
         "symfony/polyfill-mbstring": "v1.24.0",
