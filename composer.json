@@ -31,6 +31,7 @@
         "rachidlaasri/laravel-installer": "4.0.2",
         "ramsey/uuid": "3.9.6",
         "rap2hpoutre/laravel-log-viewer": "v2.0.0",
+        "sentry/sentry-laravel": "^2.14",
         "spatie/laravel-activitylog": "2.7.0",
         "symfony/console": "v3.4.47",
         "symfony/debug": "v3.4.18",
@@ -351,6 +352,9 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
